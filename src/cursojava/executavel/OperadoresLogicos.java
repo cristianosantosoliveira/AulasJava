@@ -1,6 +1,6 @@
 package cursojava.executavel;
 
-public class PrimeiraClasseJava {
+public class OperadoresLogicos {
 
 	/* main é um metodo auto executavel em Java */
 	public static void main(String[] args) {
@@ -13,6 +13,8 @@ public class PrimeiraClasseJava {
 
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 
+		/* Condicionais */
+
 		if (media >= 70) {
 			System.out.println("Prabéns, Aluno Aprovado: " + media);
 		} else if (media >= 40 && media <= 69) {
@@ -21,6 +23,7 @@ public class PrimeiraClasseJava {
 		} else {
 			System.out.println("Aluno Reprovado: " + media);
 		}
+
 	}
 
 }
